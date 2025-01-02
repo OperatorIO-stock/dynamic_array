@@ -1,0 +1,15 @@
+/home/operatorio/Документы/meCodes/dynamic array/bin/Debug/net9.0/dynamic array
+/home/operatorio/Документы/meCodes/dynamic array/bin/Debug/net9.0/dynamic array.deps.json
+/home/operatorio/Документы/meCodes/dynamic array/bin/Debug/net9.0/dynamic array.runtimeconfig.json
+/home/operatorio/Документы/meCodes/dynamic array/bin/Debug/net9.0/dynamic array.dll
+/home/operatorio/Документы/meCodes/dynamic array/bin/Debug/net9.0/dynamic array.pdb
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.GeneratedMSBuildEditorConfig.editorconfig
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.AssemblyInfoInputs.cache
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.AssemblyInfo.cs
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.csproj.CoreCompileInputs.cache
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.sourcelink.json
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.dll
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/refint/dynamic array.dll
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.pdb
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/dynamic array.genruntimeconfig.cache
+/home/operatorio/Документы/meCodes/dynamic array/obj/Debug/net9.0/ref/dynamic array.dll

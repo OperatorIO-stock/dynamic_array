@@ -14,24 +14,24 @@ class Program
             if (answerUser == "exit")
                 break;
             else if (answerUser == "sum")
-                Console.WriteLine(numbers.Sum());
+                Console.WriteLine($"Sum: {numbers.Sum()}");
             
             if (int.TryParse(answerUser, out int number))
             {
-                int[] tempNumbers = new int [numbers.Length + 1];
+                int[] tempDataNumbers = new int [numbers.Length + 1];
 
                 for (int i = 0; i < numbers.Length; i++)
-                    tempNumbers[i] = numbers[i];
+                    tempDataNumbers[i] = numbers[i];
 
-                tempNumbers[tempNumbers.Length - 1] = number;
+                tempDataNumbers[^1] = number;
 
-                numbers = tempNumbers;
-
-                for (int i = 0; i < numbers.Length; i++)
-                    Console.Write($"{numbers[i]} ");
-
-                Console.WriteLine("\n");
+                numbers = tempDataNumbers;
             }
+
+            for (int i = 0; i < numbers.Length; i++)
+                Console.Write($"{numbers[i]} ");
+
+            Console.WriteLine("\n");
         }
     }
 }

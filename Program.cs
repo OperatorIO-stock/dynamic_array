@@ -5,27 +5,35 @@ class Program
     static void Main(string[] args)
     {
         int[] numbers = [];
+
+        int quantityIndexesArray = 1;
+
+        bool isProgramWorking = true;
         
-        while (true)
+        while (isProgramWorking)
         {
             string answerUser = Console.ReadLine();
             Console.Clear();
 
             if (answerUser == "exit")
-                break;
+            {
+                isProgramWorking = false;
+            }
             else if (answerUser == "sum")
+            {
                 Console.WriteLine($"Sum: {numbers.Sum()}");
+            }
             
             if (int.TryParse(answerUser, out int number))
             {
-                int[] tempDataNumbers = new int [numbers.Length + 1];
+                int[] tempNumbersData = new int [numbers.Length + quantityIndexesArray];
 
                 for (int i = 0; i < numbers.Length; i++)
-                    tempDataNumbers[i] = numbers[i];
+                    tempNumbersData[i] = numbers[i];
 
-                tempDataNumbers[^1] = number;
+                tempNumbersData[^quantityIndexesArray] = number;
 
-                numbers = tempDataNumbers;
+                numbers = tempNumbersData;
             }
 
             for (int i = 0; i < numbers.Length; i++)
